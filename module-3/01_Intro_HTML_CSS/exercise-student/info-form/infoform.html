@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mailing List Signup</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <a href="index.html" class="lightenlinks">Return To Main Page</a>
+
+            <h2>Mailing List Registration Form</h2>
+            <form action="/api/example" method="post">
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="registrationname" required>
+                &nbsp;
+                <label for="email">Email Address:</label>
+                <input id="email" type="text" name="registrationemail" required>
+                <br>
+                <label for="dob">Date of Birth:</label>
+                <input id="dob" type="date" name="registrationbirthday">
+                &nbsp;
+                <select>
+                    <option value="1" style="background:white">Favorite Color</option>
+                    <option value="2" style="background:yellow"></option>
+                    <option value="3" style="background:green"></option>
+                    <option value="4" style="background:blue"></option>
+                    <option value="5" style="background:red"></option>
+                    <option value="6" style="background:purple"></option>
+                    <option value="7" style="background:Black"></option>
+                </select>
+                <br>
+                <label for="favoritenumber">Favorite Number:</label>
+                <input id="favoritenumber" type="number" name="registrationfavnumber">
+                &nbsp;
+                <input type="submit" value ="All Information is Correct">
+            </form>
+        </main>
+    </body>
+</html>

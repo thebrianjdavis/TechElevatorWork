@@ -1,0 +1,36 @@
+img{
+    height: 360px;
+}
+h1{
+    color:white;
+}
+h3{
+    color:white;
+    text-decoration: underline;
+}
+.ital{
+    font-style:oblique;
+}
+header{
+    text-align: center;
+    font-size: larger;
+    font-style:initial;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color:lightgray;
+}
+table{
+    text-align: left;
+    align-content: center;
+}
+.lightenlinks{
+    color:lightblue;
+}
